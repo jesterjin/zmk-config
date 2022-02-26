@@ -64,17 +64,17 @@
                 
        		default_layer {
 		bindings = <
-		&kp Y &kp C &kp L &kp M &kp K 						&kp Z &kp F  &kp U    &mt QUOT DQT   &kp BSPC 
+		&kp Y &kp C &kp L &kp M &kp K 						&kp Z &kp F  &kp U    &mt QUOT DQT   &kp BKSP 
 		&kp I &kp S &kp R &kp T &kp G 			        	        &kp P &kp N &kp E &kp A &kp O
-		&mt LSFT Q &kp V &kp W &kp D &kp G				        &kp N &kp M  &kp CMMA &mt CMMA DOT &mt RET LSFT
-          				&kp LSFT &kp SPC  				&kp LCTL &tog 1 
+		&kp Q &kp V &kp W &kp D &kp J				        &kp B &kp H  &mt QMARK BANG  &mt CMMA DOT &mt RET LSFT
+          				&kp LSFT &kp SPC  				&kp SPC &tog 1 
 		>;
 		};
 
        		left_layer {
 		bindings = <
 		&kp ESC  &kp LC(P)    &kp NUM_1    &kp NUM_2    &kp NUM_3		&kp S &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 
-		&kp TAB    &kp LC(S)    &kp NUM_4      &kp NUM_5     &kp NUM_6 		&kp MINUS &kp EQL  &kp LBKT &kp RBKT  &kp DEL 
+		&kp TAB    &kp LC(Z)    &kp NUM_4      &kp NUM_5     &kp NUM_6 		&kp MINUS &kp EQL  &kp LBKT &kp RBKT  &kp DEL 
 		&kp LC(C)    &kp LC(V) 	&kp NUM_7 &kp NUM_8  &kp NUM_9  	 	&kp MINUS &kp GRAVE &kp LBKT &kp RBKT  &tog 1 
 					    &tog 1   &kp NUM_0  					&kp RGUI &tog 2 
 		>;
@@ -83,9 +83,9 @@
 		right_layer {
 		bindings = <
 		&kp BANG  &kp ATSN &kp HASH  &kp DLLR  &kp PRCT    			&kp CRRT  &kp AMPS &kp KMLT &kp LPRN &kp RPRN 
-		&kp HASH  &kp QMARK  &kp FSLH  &kp COLN  &kp SCLN 			&kp MINUS &kp KP_EQUAL  &kp LBRC  &kp RBRC   &kp BKSP
-		&kp LSFT  &kp KPLS &kp LBKT &kp RBKT   &kp BSLH    			&kp UNDER &kp LEFT &kp DOWN &kp UP  &tog 2
-					  &tog 1 &kp LCTL  				&kp SPC  &tog 3 
+		&kp HASH  &kp QMARK  &kp FSLH  &kp COLN  &kp SCLN 			&kp MINUS &kp KP_EQUAL  &kp UP  &kp RBRC   &kp BKSP
+		&kp LSFT  &kp KPLS &kp LBKT &kp RBKT   &kp BSLH    			&kp UNDER &kp LEFT &kp DOWN &kp RIGHT  &tog 2
+					  &tog 2 &kp LCTL  				&kp SPC  &tog 3 
 		>;
 		};	
 		
@@ -94,7 +94,7 @@
 		&kp NUM_1  &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5 			&trans &trans   &trans   &trans  &trans
 		&kp F1 &kp F2 &kp F3 &kp F4 &kp F5  						&trans &kp PG_UP  &kp K_VOL_UP &kp K_MUTE &trans 
 		&bt BT_CLR  &bt BT_NXT &bt BT_PRV &kp F6 &kp F7   				&trans &kp PG_DN  &kp K_VOL_DN  &trans &tog 3   
-					 &tog 1 &trans  					&trans &tog 0 
+					 &tog 3 &trans  					&trans &tog 0 
 		>;
 		};	
         
